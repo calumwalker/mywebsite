@@ -1,0 +1,270 @@
+	html,body {
+	 margin: 0;
+	 padding: 0;
+	 font-family: 'Fjalla One', sans-serif;
+	}
+
+#container {
+
+max-width: 1920px;
+max-height: 1080px;
+margin: 0 auto;
+	}
+	a {
+		text-decoration: none;
+		color: #436EEE;
+	}
+
+	a:hover {
+  	 color: #c1c1c1;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+
+
+#header .header-image {
+	top: 0px;
+	width: 100%;
+	height: 380px;
+	background-position: 100% 0%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #FCFCFF;
+	padding-bottom: 0px;
+
+}
+
+
+
+#header .title h1 {
+	position: absolute;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 100px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	line-height: 200px;
+	text-align:right;
+	padding-right: 30px;
+	color: #1B98E0;
+	width: 76%;
+	height: 200px;
+	margin-top: 44px;
+}
+
+#header.header-image .title h1 {
+	line-height: 400px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	margin-top: 0;
+}
+
+#header #nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 16px;
+	text-decoration: none;
+	padding-right: 0;
+
+
+}
+
+#header #nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 23px;
+}
+
+#header #nav ul {
+	list-style-type: none;
+	margin: 10px 5px;
+}
+
+@media all and (max-width:1200px){
+        #nav ul {
+                display: none;
+        }
+}
+
+#nav img.hamburger {
+        display: none;
+				max-width: 50px;
+				position: absolute;
+				right: 30px;
+				top: 26px;
+				float: right;
+}
+
+
+@media all and (max-width:1200px){
+        #header img.hamburger {
+                display: block;
+        }
+}
+
+
+#header #nav a {
+	color: #3c91ca;
+}
+#header #nav a:hover {
+
+color: #fff;
+
+}
+#header #nav ul li {
+	display: inline;
+	margin-left: 18px;
+	padding: 3px 7px 2px;
+}
+
+#close img.close {
+	      display: none;
+        max-width: 50px;
+        position: absolute;
+        right: 30px;
+        top: 26px;
+				float: right;
+				z-index: 1000000;
+			}
+
+div.overlay {
+	      display:none;
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        width: 100%;
+        height: 500px;
+				z-index: 100;
+}
+
+div.overlay ul {
+        padding: 0;
+        margin: 100px 0 0 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+}
+
+div.overlay ul li {
+        display: block;
+}
+
+div.overlay ul li a {
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        font-size: 50px;
+}
+
+div.col-sm {
+ text-align: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+div.col-sm h4 {
+
+	color:#3c91ca;
+}
+
+div.col-sm p {
+	color:#ff9c00;
+	font-size: 12px;
+  text-align: left;
+	font-weight: bold;
+}
+
+
+
+#content {
+   text-align: center;
+	 background-color: #ebedee;
+}
+
+#content-main {
+	font-family: "Fjalla", Arial, sans-serif;
+	font-size: 30px;
+	color: #3c91ca;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	background-color: #f4f6f7;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+body.full-width #content-main {
+
+}
+
+
+
+#content-para {
+
+	font-family: "Fjalla", Arial, sans-serif;
+	position: relative;
+	font-size: 25px;
+	width: 853px;
+	color: #3c91ca;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 1px;
+	max-width: 80%;
+
+}
+.goodat {
+	font-size: 49px;
+	font-family:  'Fjalla One', sans-serif;
+	line-height: 40px;
+	width: 1020px;
+	max-width: 100%;
+	margin: 110px auto 80px;
+	font-weight: 100;
+}
+
+.goodat #line {
+	text-align: justify;
+}
+
+.goodat #line:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.goodat .skill {
+	font-weight: 300;
+}
+
+#blue {
+	color: #3c91ca;
+}
+
+#orange {
+	color:#ff9600;
+}
+
+#red {
+	color: #ff004e;
+}
+
+.form {
+	background-color: #ebedee;
+  padding: 20px;
+}

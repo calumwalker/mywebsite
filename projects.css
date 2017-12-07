@@ -1,0 +1,135 @@
+.startprojects {
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-weight: bold;
+
+}
+@media all and (max-width: 1000px) {
+  #scottish {
+          display: none;
+  }
+
+}
+
+@media all and (max-width: 1000px) {
+  #alexapic {
+          display: none;
+  }
+
+}
+@media all and (max-width: 1000px) {
+  #storepic {
+          display: none;
+  }
+
+}
+@media all and (max-width: 1000px) {
+  #apppic {
+          display: none;
+  }
+
+}
+
+.spone {
+
+  width: 100%;
+  height: 100%;
+  max-height: 900px;
+
+}
+.shopone {
+
+  width: 100%;
+  height: 100%;
+  max-height: 810px;
+
+}
+.alexapic {
+
+  width: 100%;
+  height: 100%;
+  max-height: 810px;
+
+}
+.sptwo {
+
+  width: 100%;
+  height: 100%;
+  max-height: 1400px;
+
+}
+
+.backgroundsp {
+  width: 100%;
+  height: 100%;
+  max-height: 810px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 20px;
+}
+
+.navprojects ul {
+
+  position: fixed;
+  top: 0px;
+  padding-left: 0;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 0;
+  float: left;
+  list-style-type: none;
+  margin: 10px 5px;
+  padding: 5px;
+
+}
+
+.navprojects a {
+    color: #000;
+}
+
+.navprojectsright ul {
+
+  position: absolute;
+  margin: 10px 5px;
+  padding: 5px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  right: 30px;
+
+
+
+}
+
+.navprojectsright a {
+    color: #000;
+}
+
+
+.projectmobile {
+  display: none;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  padding: 5px;
+}
+@media all and (max-width: 1000px){
+        .projectmobile {
+                display: block;
+        }
+}
