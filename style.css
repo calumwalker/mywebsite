@@ -1,28 +1,28 @@
-	html,body {
-	 margin: 0;
-	 padding: 0;
-	 font-family: 'Fjalla One', sans-serif;
-	}
+html,body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Fjalla One', sans-serif;
+}
 /* Containter to make sure whole page is same size */
 #container {
 
-max-width: 1920px;
-max-height: 1080px;
-margin: 0 auto;
-/* making sure the nav changes when it is hovered over*/
-	}
-	a {
-		text-decoration: none;
-		color: #436EEE;
-	}
+	max-width: 1920px;
+	max-height: 1080px;
+	margin: 0 auto;
+	/* making sure the nav changes when it is hovered over*/
+}
+a {
+	text-decoration: none;
+	color: #436EEE;
+}
 
-	a:hover {
-  	 color: #c1c1c1;
-	}
+a:hover {
+	color: #c1c1c1;
+}
 
-	.clear {
-		clear: both;
-	}
+.clear {
+	clear: both;
+}
 
 /* header image css which makes the header resize */
 
@@ -95,25 +95,25 @@ margin: 0 auto;
 }
 /* optimised for mobile this will make the menu go away when the size of the page is below 1200 */
 @media all and (max-width:1200px){
-        #nav ul {
-                display: none;
-        }
+	#nav ul {
+		display: none;
+	}
 }
 /* hamburger icon which is not displayed until the javascript displays it when the page is smaller */
 #nav img.hamburger {
-        display: none;
-				max-width: 50px;
-				position: absolute;
-				right: 30px;
-				top: 26px;
-				float: right;
+	display: none;
+	max-width: 50px;
+	position: absolute;
+	right: 30px;
+	top: 26px;
+	float: right;
 }
 
 /* the hamburger icon which will appear when the size of the window is less than 1200 pixels */
 @media all and (max-width:1200px){
-        #header img.hamburger {
-                display: block;
-        }
+	#header img.hamburger {
+		display: block;
+	}
 }
 
 /* nav styles with changing hover colours */
@@ -122,7 +122,7 @@ margin: 0 auto;
 }
 #header #nav a:hover {
 
-color: #fff;
+	color: #fff;
 
 }
 #header #nav ul li {
@@ -132,49 +132,49 @@ color: #fff;
 }
 /* the close overlay icon which is not displayed until the javascript enables it after the hamburger icon is called */
 #close img.close {
-	      display: none;
-        max-width: 50px;
-        position: absolute;
-        right: 30px;
-        top: 26px;
-				float: right;
-				z-index: 1000000;
-			}
+	display: none;
+	max-width: 50px;
+	position: absolute;
+	right: 30px;
+	top: 26px;
+	float: right;
+	z-index: 1000000;
+}
 /* the overlay so that it is optimised for mobile the sizes are very big so they are easily clickable */
 div.overlay {
-	      display:none;
-        background-color: rgba(0,0,0,0.7);
-        position: absolute;
-        width: 100%;
-        height: 500px;
-				z-index: 100;
+	display:none;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	z-index: 100;
 }
 
 div.overlay ul {
-        padding: 0;
-        margin: 100px 0 0 0;
-        display: block;
-        width: 100%;
-        text-align: center;
+	padding: 0;
+	margin: 100px 0 0 0;
+	display: block;
+	width: 100%;
+	text-align: center;
 }
 
 div.overlay ul li {
-        display: block;
+	display: block;
 }
 
 div.overlay ul li a {
-        color: #ffffff;
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 10px;
-        display: block;
-        font-size: 50px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	font-size: 50px;
 }
 /* This is a class from bootstrap with my custom styles for */
 div.col-sm {
- text-align: center;
- padding-top: 30px;
- padding-bottom: 30px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 div.col-sm h4 {
 
@@ -184,15 +184,15 @@ div.col-sm h4 {
 div.col-sm p {
 	color:#ff9c00;
 	font-size: 12px;
-  text-align: left;
+	text-align: left;
 	font-weight: bold;
 }
 
 
 /* */
 #content {
-   text-align: center;
-	 background-color: #ebedee;
+	text-align: center;
+	background-color: #ebedee;
 }
 /* having the content styles so that the sizes and where it is displayed are changed as well as font */
 #content-main {
@@ -268,5 +268,5 @@ body.full-width #content-main {
 /* the background colour and sizing for the form from bootstrap*/
 .form {
 	background-color: #ebedee;
-  padding: 20px;
+	padding: 20px;
 }

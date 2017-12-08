@@ -13,15 +13,15 @@
 }
 /* new id's for different coloured words */
 #blue {
-	color:#3c91ca;
+  color:#3c91ca;
 }
 
 #orange {
-	color:#ff9600;
+  color:#ff9600;
 }
 
 #red {
-	color:#ff004e;
+  color:#ff004e;
 }
 /* the button css so that the button is at the right and is fixed so does not move */
 .downloadcv ul {
