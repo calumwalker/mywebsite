@@ -2,26 +2,33 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Title of website  -->
 	<title>Calum Walker</title>
+	<!-- Importing boostrap styles as well as footer style and main style sheet as well as getting the google font from google  -->
+	<!-- With custom stylesheet for the CV -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link href="sticky-footer.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="cv.css" />
 	<script src="https://use.fontawesome.com/ec2d30071c.js"></script>
 	<script>
 	@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 	</script>
 </head>
-<body>
+		<!-- Main Header Section -->
+
 	<div id="header" class="header-image">
 		<div id="close">
-			<img class="close" src="close-icon.png" />
+			<img class="close" src="close-icon.png" alt="icon for closing the overlay menu on mobile"/>
+			<!-- setting up clase for the closed burger icon -->
 
 		</div>
+		<!-- setting up the menu to be in an overlay for mobile displays and adding them to a id for styling -->
 		<div class="overlay">
 			<div id="container">
 
 				<ul>
+										<!-- My overlay nav for mobile and tablets-->
 					<li><a href="index.html">Home</a></li>
 					<li><a href="projects.html">Projects</a></li>
 					<li><a href="cv.html">CV</a></li>
@@ -35,32 +42,107 @@
 			<div id="container">
 				<div id="nav">
 					<ul>
+						<!-- Main nav for computers   -->
 						<a href="index.html"><li>Home</li></a>
 						<a href="projects.html"><li>Projects</li></a>
 						<a href="cv.html"><li>CV</a></li>
 						<a href="contactme.html"><li>Contact Me</li></a>
 
 					</ul>
-					<img class="hamburger" src="hamburger-icon.png" />
+					<!-- hamburger icon for pressing to activate overlay   -->
+					<img class="hamburger" src="hamburger-icon.png" alt="icon to open the overlay menu on mobile"/>
 				</div>
-
-				<div class="header-image" style="background-image:url(image/banner.gif)"></div>
+	<!-- my gif header which has fading in and out clouds (which took ages)  -->
+				<div class="header-image" style="background-image:url(image/banner.gif)" alt="header picture of the sky with my name Calum Walker"></div>
 			</div>
 
 
 		</div>
 	</header>
 	<!-- Start of Content of page -->
+	<!-- Setting up the bootstrap containers for the first icon sectiton   -->
+	<!-- also button so that the cv can be downloaded -->
+<body>
+	<div class="downloadcv">
+	  <ul>
+	    <li><a class="btn btn-primary" role="button" href="https://www.mediafire.com/file/auck0tca0492b2t/CV.pages"> Download Full CV </a></li>
+	  </ul>
+	</div>
+	<!-- CV stuff using id's for different colours   -->
+<div class="cv">
+<!-- using different tags for different sizes and titles ect   -->
+	<span id="blue"><h2>Personal Statement </h2></span>
+<h4>I am 18 years old studying Computer Science at Robert Gordon University.<br /> My interests have always been in computers and business.<br /> Since the age of 13 I’ve been attempting to start various business ventures online from selling servers to running a graphic design company.<br /> Scottish Patter was the welcome break which showed me the world of media in which I have enjoyed every second of from working with companies<br /> such as wearewire and Tennent’s to Staeles Design and hopefully much more <br />I’d admit I often fall head first into businesses before I know the trade, however, the steep learning curves are <br />what I value the most in having the experiences at my age.</h4>
+<br />
+<br />
+	<span id="blue"><h2>Experience</h2></span>
+	<span id="orange"><h3>Work Experience 2015 (1 week) </h3></span> <br />
+	<h4>Decawave, Computer Department<br />
+	Responsibilities:<br />
+	Monitor servers<br />
+	Setup Staff computers with latest software<br />
+	View future strategic moves for technology within the workplace<br />
+	Keep microchip software fully functioning</h4><br />
+	<br />
+	<br />
+
+	<span id="blue"><h2>Scottish Patter (2017)</h2></span>
+	<span id="orange"><h3>Co-Founder of Media Company Scottish Patter (scottishpatter.com)</h3></span>
+	<h4>330,000 Likes on facebook with an average weekly reach of 7,000,000 people and 30,000 monthly website views. <br />
+	Responsibilities:<br />
+	Coordinate brand deals <br />
+	Handles the company finances <br />
+	Update and monitor website <br />
+	Post on social media channels <br />
+	Attend press events </h4>
+
+	<br />
+	<br />
 
 
+	<span id="blue"><h2>Schools Results </h2></span> <br />
+	<span id="orange"><h3>Higher: </h3></span>
+	<h4>A: Business Management <br />
+	A: History <br />
+	B: Computing <br />
+	B: Maths <br />
+	B: Geography <br />
+	B: Graphic Communications <br />
+	</h4>
+	<br />
+	<br />
+	<span id="orange"><h3>N5:</h3></span> <br />
+	<h4> A: Maths <br />
+	A: Art <br />
+	B: Physics <br />
+	B: English <br />
+	B: Computing <br />
+	B: Graphics Communications <br />
+	</h4>
+
+<br />
+<br />
+
+	<span id="blue"><h2>Skills and qualifications</h2></span> <br />
+	<h4>
+	-   Wordpress websites <br />
+	-   Photoshop <br />
+	-   Teamwork and leadership <br />
+	-   Powerboat Level 2 <br />
+	-   RYA 4 <br />
+	-   Full UK driving License <br />
+</h4>
 
 
+</div>
+	<!-- This is my footer section off of bootstrap with the little html copyright icon  -->
 	    <footer class="footer">
 	      <div class="container">
 	      <span class="text-muted"> &copy; Copyright 2017, Calum Walker</span>
 
 	      </div>
 	    </footer>
+			<!-- Bringing in the bootstrap stuff as well as jquery for the burger bar (all at the end for faster website loading) -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>

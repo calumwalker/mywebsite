@@ -4,7 +4,8 @@
   padding-top: 40px;
   padding-bottom: 10px;
   font-weight: bold;
-
+/* All the images are set so that they do not display if they are smaller than 1000 pixels in width so that it is optimized for
+mobile, this way when on mobile as you can't hover. You can just view the seperate menu */
 }
 @media all and (max-width: 1000px) {
   #scottish {
@@ -31,7 +32,8 @@
   }
 
 }
-
+/* Background images set so that they change sizes when the window size is changed
+the max height is set to the raw size of the image */
 .spone {
 
   width: 100%;
@@ -47,6 +49,14 @@
 
 }
 .alexapic {
+
+  width: 100%;
+  height: 100%;
+  max-height: 810px;
+
+}
+
+.appone {
 
   width: 100%;
   height: 100%;
@@ -70,7 +80,7 @@
   padding-bottom: 40px;
   font-size: 20px;
 }
-
+/* the menu so that users can easily view the different projects I have done*/
 .navprojects ul {
 
   position: fixed;
@@ -93,7 +103,7 @@
 .navprojects a {
     color: #000;
 }
-
+/* The position of the nav is set so that it follows the user as they scroll down for ease of going back */
 .navprojectsright ul {
 
   position: absolute;
@@ -116,7 +126,7 @@
     color: #000;
 }
 
-
+/* This is the mobile navigation so that it is big and easy to view on mobile */
 .projectmobile {
   display: none;
   text-decoration: none;
@@ -128,6 +138,8 @@
   background-color: rgba(0,0,0,0.1);
   padding: 5px;
 }
+/* this sets the menu to display when the other pictures do not so when the window is less than 1000 pixels then it
+will display */
 @media all and (max-width: 1000px){
         .projectmobile {
                 display: block;

@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Title of website  -->
 	<title>Calum Walker</title>
+
+	<!-- Importing boostrap styles as well as footer style and main style sheet as well as getting the google font from google  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link href="sticky-footer.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css" />
@@ -11,17 +13,22 @@
 	<script>
 	@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 	</script>
+
+		<!-- Main Header Section -->
 </head>
 <body>
 	<div id="header" class="header-image">
 		<div id="close">
-			<img class="close" src="close-icon.png" />
+			<img class="close" src="close-icon.png" alt="close overlay menu " />
+				<!-- setting up clase for the closed burger icon -->
 
 		</div>
+			<!-- setting up the menu to be in an overlay for mobile displays and adding them to a id for styling -->
 		<div class="overlay">
 			<div id="container">
 
 				<ul>
+						<!-- My overlay nav for mobile and tablets-->
 					<li><a href="index.html">Home</a></li>
 					<li><a href="projects.html">Projects</a></li>
 					<li><a href="cv.html">CV</a></li>
@@ -35,31 +42,35 @@
 			<div id="container">
 				<div id="nav">
 					<ul>
+							<!-- Main nav for computers   -->
 						<a href="index.html"><li>Home</li></a>
 						<a href="projects.html"><li>Projects</li></a>
 						<a href="cv.html"><li>CV</a></li>
 						<a href="contactme.html"><li>Contact Me</li></a>
 
 					</ul>
-					<img class="hamburger" src="hamburger-icon.png" />
+						<!-- hamburger icon for pressing to activate overlay   -->
+					<img class="hamburger" src="hamburger-icon.png" alt="icon to open overlay menu" />
 				</div>
-
-				<div class="header-image" style="background-image:url(image/banner.gif)"></div>
+	<!-- my gif header which has fading in and out clouds (which took ages)  -->
+				<div class="header-image" style="background-image:url(image/banner.gif)" alt="header image of city with name of me Calum Walker" ></div>
 			</div>
 
 
 		</div>
 	</header>
 	<!-- Start of Content of page -->
-
+	<!-- Setting up the bootstrap containers for the first icon sectiton   -->
 	<div class="container">
 		<div class="row">
 			<div class="col-sm">
 				<!-- One of four columns -->
+					<!-- Using fa icons with aria-hidden=true so that if the page was being read aloud then the program would not include the icons -->
 				<i class="fa fa-location-arrow fa-4x" aria-hidden="true" id="icon"></i>
 				<h2>Location</h2>
 				<h4>Aberdeen/Helensburgh<h4>
 					<div class="progress">
+							<!-- progress bar from bootstrap -->
 						<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 					<p> Current </p>
@@ -97,18 +108,22 @@
 						</div>
 					</div>
 
+						<!-- A Little About Me Sectionn set in a div id  -->
+
 		<div id="content-main" class="full-width" >
 			<div id="intro">
+					<!-- Setting my image with alt to have better accesability to let the user know what it is  -->
 				<img src="image/me-1.png" alt="picture of me" style="width:250px;height:250px;">
 				<h4> A Little About Me </h4>
 			</div>
+				<!-- Different tag for the smaller writing  -->
 			<div id="content-para" class="full-width">
 				<p>
 					I am 18 years old studying Computer Science at Robert Gordon University. My interests have always been in computers and business. Since the age of 13 I’ve been attempting to start various business ventures online from selling servers to running a graphic design company. Scottish Patter was the welcome break which showed me the world of media in which I have enjoyed every second of from working with companies such as wearewire and Tennent’s to Staeles Design and hopefully much more I’d admit I often fall head first into businesses before I know the trade, however, the steep learning curves are what I value the most in having the experiences at my age.
 				</p>
 			</div>
 		</div>
-
+	<!-- A colourful and stuttle addition which is also very easy to read to allow for better accesability   -->
 	<div class="goodat">
 	<div id="line">I create <span id="blue">amazing</span> and <span id="blue">responsive</span> websites</div>
 	<div id="line">using <span id="orange">HTML</span> / <span id="orange">CSS</span> / <span id="orange">JavaScript</span> / <span id="orange">jQuery</span> / <span id="orange">PHP</span>.</div>
@@ -116,6 +131,8 @@
 	<div id="line"><span id="red">Prolog</span> / <span id="red">ML</span> / <span id="red">SQL</span> / <span id="red">MySQL</span></div>
 	</div>
 
+
+	<!-- This is a bootstrap form which can be validated locally by the user's machine, the form does not go anywhere due to the fact github won't allow php  -->
 	<form class="form" id="needs-validation" novalidate>
 		<div class="form-row">
 		    <div class="form-group col-md-6">
@@ -148,7 +165,7 @@
 	// Example starter JavaScript for disabling form submissions if there are invalid fields
 	(function() {
 	  'use strict';
-
+//program listens for the clock and then gets the form to check if there is anything inputed and if not then display and not submit
 	  window.addEventListener('load', function() {
 	    var form = document.getElementById('needs-validation');
 	    form.addEventListener('submit', function(event) {
@@ -163,13 +180,14 @@
 	</script>
 
 
-
+	<!-- This is my footer section off of bootstrap with the little html copyright icon  -->
 	    <footer class="footer">
 	      <div class="container">
 	      <span class="text-muted"> &copy; Copyright 2017, Calum Walker</span>
 
 	      </div>
 	    </footer>
+				<!-- Bringing in the bootstrap stuff as well as jquery for the burger bar (all at the end for faster website loading) -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>

@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Title of website  -->
 	<title>Calum Walker</title>
+	<!-- Importing boostrap styles as well as footer style and main style sheet as well as getting the google font from google  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link href="sticky-footer.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css" />
@@ -11,17 +12,22 @@
 	<script>
 	@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 	</script>
+
+	<!-- Main Header Section -->
 </head>
 <body>
 	<div id="header" class="header-image">
 		<div id="close">
-			<img class="close" src="close-icon.png" />
+			<img class="close" src="close-icon.png" alt="picture of the icon to close the overlay menu" />
+			<!-- setting up clase for the closed burger icon -->
 
 		</div>
+		<!-- setting up the menu to be in an overlay for mobile displays and adding them to a id for styling -->
 		<div class="overlay">
 			<div id="container">
 
 				<ul>
+					<!-- My overlay nav for mobile and tablets-->
 					<li><a href="index.html">Home</a></li>
 					<li><a href="projects.html">Projects</a></li>
 					<li><a href="cv.html">CV</a></li>
@@ -35,22 +41,25 @@
 			<div id="container">
 				<div id="nav">
 					<ul>
+						<!-- Main nav for computers   -->
 						<a href="index.html"><li>Home</li></a>
 						<a href="projects.html"><li>Projects</li></a>
 						<a href="cv.html"><li>CV</a></li>
 						<a href="contactme.html"><li>Contact Me</li></a>
 
 					</ul>
-					<img class="hamburger" src="hamburger-icon.png" />
+					<!-- hamburger icon for pressing to activate overlay   -->
+					<img class="hamburger" src="hamburger-icon.png" alt="pic of icon to open the overlay menu"/>
 				</div>
-
-				<div class="header-image" style="background-image:url(image/banner.gif)"></div>
+<!-- my gif header which has fading in and out clouds (which took ages)  -->
+				<div class="header-image" style="background-image:url(image/banner.gif)" alt="header image with picture of the sky with my name Calum Walker"></div>
 			</div>
 
 
 		</div>
 	</header>
 	<!-- Start of Content of page -->
+	<!-- Setting up the bootstrap containers ect for the form which is validated locally. Does not send anywhere due to it being hosted on github can't use php  -->
 
 	<form class="form" id="needs-validation" novalidate>
 		<div class="form-row">
@@ -84,7 +93,7 @@
 	// Example starter JavaScript for disabling form submissions if there are invalid fields
 	(function() {
 	  'use strict';
-
+		//program listens for the clock and then gets the form to check if there is anything inputed and if not then display and not submit
 	  window.addEventListener('load', function() {
 	    var form = document.getElementById('needs-validation');
 	    form.addEventListener('submit', function(event) {
@@ -97,7 +106,7 @@
 	  }, false);
 	})();
 	</script>
-
+<!-- This is my footer section off of bootstrap with the little html copyright icon  -->
 
 	    <footer class="footer">
 	      <div class="container">
@@ -105,6 +114,7 @@
 
 	      </div>
 	    </footer>
+			<!-- Bringing in the bootstrap stuff as well as jquery for the burger bar (all at the end for faster website loading) -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>

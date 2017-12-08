@@ -1,0 +1,42 @@
+.cv {
+
+  text-align: center;
+}
+/* The cv different h2 and h4 tages changes different sizes */
+.cv h4 {
+  font-size: 20px;
+
+}
+
+.cv h2 {
+  font-size: 40px;
+}
+/* new id's for different coloured words */
+#blue {
+	color:#3c91ca;
+}
+
+#orange {
+	color:#ff9600;
+}
+
+#red {
+	color:#ff004e;
+}
+/* the button css so that the button is at the right and is fixed so does not move */
+.downloadcv ul {
+  position: fixed;
+  top: 0px;
+  padding-left: 0;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 0;
+  float: left;
+  list-style-type: none;
+  margin: 10px 5px;
+  padding: 5px;
+}
